@@ -12,7 +12,7 @@ bool palindrome(string s , int i , int j ){
   }
 }
 int main() {
-  string s = "abbaaccccc";
+  string s = "abbaacccccc";
   bool ans = palindrome(s,0,s.length()-1);
   cout << ans;
   

@@ -12,7 +12,7 @@ void reversestring(string& s , int i , int j){
 }
 int main() {
 
-  string s = "newstring";
+  string s = "newstrings";
   reversestring(s,0,s.length()-1);
   cout << s << endl;
 }
