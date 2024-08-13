@@ -2,7 +2,7 @@
 #include<list>
 using namespace std;
 int main(){
-    // List :- which is make using linked list
+    // List :- which is make using doubly linked list
      list<int> li;
      li.push_back(89);
      li.push_front(72);

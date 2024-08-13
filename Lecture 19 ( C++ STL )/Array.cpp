@@ -2,7 +2,7 @@
 #include<array>
 using namespace std;
 int main(){
-     // Array Stl :- It is also a static array like normal array , but for that we have to include array library or file.
+     // Array Stl :- It is also a static array like normal array , but for that we have to include array library or file. and we are not going to use this array 
   array<int,6> a = {3,4,5,6,7,8};
   for(int i = 0 ; i<=a.size()-1 ; i++){
     cout << a[i] << endl;

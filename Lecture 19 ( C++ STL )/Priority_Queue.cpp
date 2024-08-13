@@ -10,7 +10,7 @@ int main(){
     //always element will be greater from its next element when we are fetching it
 
     pqmax.push(73);
-    pqmax.push(89);
+    pqmax.push(89); 
     pqmax.push(90);
 
     int size = pqmax.size();

@@ -2,8 +2,16 @@
 #include<vector>
 using namespace std;
 int main(){
+
+      //In vector first it creates a array of double of its current size then paste all elements into new array and dumb current array 
+
      vector<int> vec;
-  
+      //capacity :- space assigned for elements 
+      // size :- no of elements present in a vector 
+      
+      //Intializing and assigning same values 
+      vector<int> v (5,2) ;
+      
   //Capacity of vector :- It doubles the size of vector , It does not print size of vector 
   vec.push_back(2);
   cout << "Capacity : " << vec.capacity() << endl;
